@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Inter:wght@300;400;700&display=swap');
+
+:root {
+    --font-principal: 'Inter';
+    --font-elegante: 'Delicious Handrawn';
+    --espacamento-pequeno: 0.5rem;
+    --espacamento-medio: 1rem;
+    --espacamento-grande: 2rem;
+
+    /*O root é a raiz do código. Os dois traços representam a criação de uma variável. */
+}
+
