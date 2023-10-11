@@ -34,3 +34,63 @@ nav {
     flex-direction: row;
     gap: 50px;
 }
+
+ul {
+    display: flex;
+    gap: var(--espacamento-pequeno);
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: white;
+    font-family: var(--font-principal);
+}
+
+.home {
+    color: #fd0178;
+    border-bottom: 2px solid #fd0178;
+}
+
+h1 {
+    color: white;
+    font-family:var(--font-secundaria);
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+hgroup {
+    grid-row-start: 4;
+    grid-column: 2/6;
+}
+
+h2 {
+    color: white;
+    font-family: var(--font-principal);
+    font-size: 1.5rem;
+    margin-top: var(--espacamento-medio);
+    font-weight: 300;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    width: 200px;
+    height: 50px;
+    margin-top: var(--espacamento-grande);
+    margin-right: var(--espacamento-medio);
+    cursor: pointer;
+    font-family: var(--font-principal);
+    font-weight: 700;
+    color: white;
+}
+
+.btn_start {
+    background-color: #fd0178;
+}
+
+.btn_plan {
+    background-color: #252c57;
+}
