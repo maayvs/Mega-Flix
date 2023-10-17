@@ -3,4 +3,6 @@
 @import "./layout/header.css";
 @import "./layout/rodape.css";
 @import "./module/movie.css";
+@import "./layout/categorias.css";
+@import "./module/card.css";
 
