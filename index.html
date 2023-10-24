@@ -6,8 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mega Flix | Projeto desenvolvido pelo professor Kaian</title>
+    <script src="https://kit.fontawesome.com/6cde816448.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/atropos.css">
 </head>
 <body>
     
@@ -88,54 +90,201 @@
                 Filmes mais aclamados e desejados
             </h2>
 
-            <img src="/images/Animais-Fantasticos-3-Novas-projecoes-indicam-fracasso-do-filme-nas-bilheterias-dos-EUA-1200x675.jpg">
-            <img src="/images/aquaman.jpeg">
-            <img src="/images/avatar.jpeg">
-            <img src="/images/3724880-raised-by-wolves-hbo-max-1200x675.jpg">
-            <img src="/images/101-curiosidades-sobre-game-of-thrones-1200x675.jpg">
-            <img src="/images/harryPotter.jpeg">
+            <div class="atropos atropos-1">
+                <div class="atropos-scale">
+                  <div class="atropos-rotate">
+                    <div class="atropos-inner">
+                      <img src="images/101-curiosidades-sobre-game-of-thrones-1200x675.jpg">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="atropos atropos-2">
+                <div class="atropos-scale">
+                  <div class="atropos-rotate">
+                    <div class="atropos-inner">
+                      <img src="images/Animais-Fantasticos-3-Novas-projecoes-indicam-fracasso-do-filme-nas-bilheterias-dos-EUA-1200x675.jpg">
+                    </div>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="atropos atropos-3">
+                <div class="atropos-scale">
+                  <div class="atropos-rotate">
+                    <div class="atropos-inner">
+                      <img src="images/aquaman.jpeg">
+                    </div>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="atropos atropos-4">
+                <div class="atropos-scale">
+                  <div class="atropos-rotate">
+                    <div class="atropos-inner">
+                      <img src="images/avatar.jpeg">    
+                    </div>
+                  </div>
+                </div>
+              </div>
+  
+              
+              <div class="atropos atropos-5">
+                <div class="atropos-scale">
+                  <div class="atropos-rotate">
+                    <div class="atropos-inner">
+                      <img src="images/harryPotter.jpeg"> 
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              
+              <div class="atropos atropos-6">
+                <div class="atropos-scale">
+                  <div class="atropos-rotate">
+                    <div class="atropos-inner">
+                      <img src="images/3724880-raised-by-wolves-hbo-max-1200x675.jpg"> 
+                    </div>
+                  </div>
+                </div>
+              </div>
             
         </section>
     </main>
 
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script>
-        ScrollReveal().reveal('.bloco1', {
-            easing: 'ease-out',
+    <footer>
+        <h6>Desenvolvido por Mayara Vieira na aula de Programação Web apresentada e creditada ao professor Kaian Novais</h6>
+      </footer>
+    </body>
+      <script src="./js/atropos.min.js"></script>
+      <script>
+          const atropos1 = Atropos({
+            el: '.atropos-1',
+            activeOffset: 20,
+          shadowScale: 1.65,
+          rotateXMax: 35,
+          rotateYMax: 35,
+          stretchZ: 15,
+          stretchX: 20,
+          stretchY: 25,
+          shadow: true,
+          shadowOffset: 40,
+          shadowScale: 1,
+          highlight: true,
+          
+          });
+          const myAtropos2 = Atropos({
+            el: '.atropos-2',
+            activeOffset: 70,
+          shadowScale: 1.05,
+          rotateXMax: 35,
+          rotateYMax: 35,
+          stretchZ: 15,
+          stretchX: 20,
+          stretchY: 25,
+          shadow: true,
+          shadowOffset: 40,
+          shadowScale: 1,
+          highlight: true
+          
+          });
+          const myAtropos3 = Atropos({
+            el: '.atropos-3',
+            activeOffset: 70,
+          shadowScale: 1.05,
+          rotateXMax: 30,
+          rotateYMax: 30,
+          stretchZ: 15,
+          stretchX: 20,
+          stretchY: 25,
+          shadow: true,
+          shadowOffset: 40,
+          shadowScale: 1,
+          highlight: true
+          
+          });
+          const myAtropos4 = Atropos({
+            el: '.atropos-4',
+            activeOffset: 70,
+          shadowScale: 1.05,
+          rotateXMax: 30,
+          rotateYMax: 30,
+          stretchZ: 15,
+          stretchX: 20,
+          stretchY: 25,
+          shadow: true,
+          shadowOffset: 40,
+          shadowScale: 1,
+          highlight: true
+          
+          });
+          const myAtropos5 = Atropos({
+            el: '.atropos-5',
+            activeOffset: 70,
+          shadowScale: 1.05,
+          rotateXMax: 30,
+          rotateYMax: 30,
+          stretchZ: 15,
+          stretchX: 20,
+          stretchY: 25,
+          shadow: true,
+          shadowOffset: 40,
+          shadowScale: 1,
+          highlight: true
+          
+          });
+          const myAtropos6 = Atropos({
+            el: '.atropos-6',
+            activeOffset: 70,
+          shadowScale: 1.05,
+          rotateXMax: 30,
+          rotateYMax: 30,
+          stretchZ: 15,
+          stretchX: 20,
+          stretchY: 25,
+          shadow: true,
+          shadowOffset: 40,
+          shadowScale: 1,
+          highlight: true
+          
+          });
+        </script>
+        <script src="https://unpkg.com/scrollreveal">
+          
+        </script>
+        <script>
+          ScrollReveal().reveal('.caracteristicas__bloco1', { 
+            easing: 'ease-out', 
             scale: 0.85,
             rotate: {
-                x: 22
+              x: 22,
             },
-            delay: 500
-        });
-
-        ScrollReveal().reveal('.bloco2', {
-            easing: 'ease-out',
+            delay: 500 
+          });
+          ScrollReveal().reveal('.caracteristicas__bloco2', { 
+            easing: 'ease-out', 
             scale: 0.85,
             rotate: {
-                x: 22
+              x: 22,
             },
-            delay: 500
-        });
-
-        ScrollReveal().reveal('.bloco3', {
-            easing: 'ease-out',
+            delay: 500 
+          });
+          ScrollReveal().reveal('.caracteristicas__bloco3', { 
+            easing: 'ease-out', 
             scale: 0.85,
             rotate: {
-                x: 22
+              x: 22,
             },
-            delay: 500
-        });
-
-        ScrollReveal().reveal('.bloco4', {
-            easing: 'ease-out',
+            delay: 500 
+          });
+          ScrollReveal().reveal('.caracteristicas__bloco4', { 
+            easing: 'ease-out', 
             scale: 0.85,
             rotate: {
-                x: 22
+              x: 22,
             },
-            delay: 500
+            delay: 500 
         });
-    
-    </script>
-</body> 
-</html>
